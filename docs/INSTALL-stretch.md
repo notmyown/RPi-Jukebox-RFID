@@ -18,7 +18,7 @@ For the impatient: there is a one line script. If you have your
 open the terminal and paste the following line:
 
 ~~~
-cd; rm stretch-install-default*; wget https://raw.githubusercontent.com/MiczFlor/RPi-Jukebox-RFID/master/scripts/installscripts/stretch-install-default.sh; chmod +x stretch-install-default.sh; ./stretch-install-default.sh
+cd; rm stretch-install-default*; wget https://raw.githubusercontent.com/notmyown/RPi-Jukebox-RFID/master/scripts/installscripts/stretch-install-default.sh; chmod +x stretch-install-default.sh; ./stretch-install-default.sh
 ~~~
 
 Having said this, you might learn a bit more about your Raspberry Pi to walk through the installation process step by step, like this:
@@ -165,7 +165,7 @@ sudo apt-get install apt-transport-https samba samba-common-bin python-dev pytho
 
 ~~~~
 cd /home/pi/
-git clone https://github.com/MiczFlor/RPi-Jukebox-RFID.git
+git clone https://github.com/notmyown/RPi-Jukebox-RFID.git
 ~~~~
 
 ### Install python requirements

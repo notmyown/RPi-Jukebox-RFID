@@ -222,7 +222,7 @@ The problem are the access rights for the user `pi` and `www-data` (the webserve
 * `pi` is part of `gid=users`
 *  `www-data` has the `uid=33`
 
-This is work in progress, please share more insights in the [issue section](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues).
+This is work in progress, please share more insights in the [issue section](https://github.com/notmyown/RPi-Jukebox-RFID/issues).
 
 ### <a name="webstreams"></a>Adding webradio station and other online streams
 
@@ -562,7 +562,7 @@ This might occur if you are using external sound cards like *pHat BEAT* or the l
 
 This could happen if you are using an external soundcard. Generally, if you have audio troubles, try searching the web, because it might get complicated. But try this first:
 
-Learn here why [to specify the audio iFace](https://github.com/MiczFlor/RPi-Jukebox-RFID/blob/master/docs/MANUAL.md#settingsaudio_iface_name) in the file `settings/Audio_iFace_Name`. 
+Learn here why [to specify the audio iFace](https://github.com/notmyown/RPi-Jukebox-RFID/blob/master/docs/MANUAL.md#settingsaudio_iface_name) in the file `settings/Audio_iFace_Name`. 
 
 If that doesn't work, check if the device is recognised by your Pi:
 ~~~
@@ -693,13 +693,13 @@ If you used the install script, you might have forgotten to register your RFID c
 
 ## How can I disable the beeping noixe of the RFID Reader?
 
-You might want to have a look at this [discussion thread](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/223). The most promising solutions that came up were all opening up the RFID Reader and then:
+You might want to have a look at this [discussion thread](https://github.com/notmyown/RPi-Jukebox-RFID/issues/223). The most promising solutions that came up were all opening up the RFID Reader and then:
 
 * cut out the beeper
 * stick some tape over the beeper to muffle it or
 * drop some candle wax on the beeper to muffle it
 
-*Note:* in another thread, users of a different RFID reader without a beep were [discussing how to make a beep](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/11#issuecomment-382337194). So before you kill it alltogether, you might try muffling it.
+*Note:* in another thread, users of a different RFID reader without a beep were [discussing how to make a beep](https://github.com/notmyown/RPi-Jukebox-RFID/issues/11#issuecomment-382337194). So before you kill it alltogether, you might try muffling it.
 
 ## Everything seems to work, but I hear nothing when swiping a card
 

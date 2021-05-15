@@ -8,7 +8,7 @@
 # See for more information:
 # http://www.raspberryconnect.com/network/item/331-raspberry-pi-auto-wifi-hotspot-switch-no-internet-routing
 #
-# Belongs to: https://github.com/MiczFlor/RPi-Jukebox-RFID 
+# Belongs to: https://github.com/notmyown/RPi-Jukebox-RFID 
 
 ##################################################### 
 # Ask if access point

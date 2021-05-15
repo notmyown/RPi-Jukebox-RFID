@@ -10,7 +10,7 @@ Once you finished with the configuration, read the [manual](MANUAL.md) to add au
 
 The RFID reader is connected to your RPi via USB. As you plug it in, it should have made a 'beep'. And each time you swipe a keyring or card across the card reader, it should also make a 'beep'.
 
-**NOTE:** if you are using **non-USB chip readers**, please take a look at these two threads for the [RDM6300 serial RFID module](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/175) and the [RC522 module](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/11). This will migrate to the docs eventually. And if you have cooked up your own solution for other devices, please share them in an [issue thread](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues).
+**NOTE:** if you are using **non-USB chip readers**, please take a look at these two threads for the [RDM6300 serial RFID module](https://github.com/notmyown/RPi-Jukebox-RFID/issues/175) and the [RC522 module](https://github.com/notmyown/RPi-Jukebox-RFID/issues/11). This will migrate to the docs eventually. And if you have cooked up your own solution for other devices, please share them in an [issue thread](https://github.com/notmyown/RPi-Jukebox-RFID/issues).
 
 (Back to the plug'n'play USB readers)
 

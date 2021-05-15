@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# see https://github.com/MiczFlor/RPi-Jukebox-RFID for details
+# see https://github.com/notmyown/RPi-Jukebox-RFID for details
 # Especially the docs folder for documentation
 
 # The absolute path to the folder which contains this script
@@ -393,7 +393,7 @@ sudo pip install youtube_dl
 
 # Get github code
 cd /home/pi/
-git clone https://github.com/MiczFlor/RPi-Jukebox-RFID.git
+git clone https://github.com/notmyown/RPi-Jukebox-RFID.git
 # the following three lines are needed as long as this is not the master branch:
 cd RPi-Jukebox-RFID
 git fetch
@@ -655,7 +655,7 @@ esac
 echo
 echo "DONE. Let the sounds begin."
 echo "Find more information and documentation on the github account:"
-echo "https://github.com/MiczFlor/RPi-Jukebox-RFID/tree/master/docs/"
+echo "https://github.com/notmyown/RPi-Jukebox-RFID/tree/master/docs/"
 
 #####################################################
 # notes for things to do

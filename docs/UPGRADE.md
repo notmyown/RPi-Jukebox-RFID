@@ -11,7 +11,7 @@ Some elements of the installation depend on the OS (like 'Jessie' vs. 'Stretch')
 
 There is a file `settings/version` containing the version number.
 
-**Note:*** This is work in progress, please share experience, improvements and insights in the [issue section](https://github.com/MiczFlor/RPi-Jukebox-RFID/issues).
+**Note:*** This is work in progress, please share experience, improvements and insights in the [issue section](https://github.com/notmyown/RPi-Jukebox-RFID/issues).
 
 # Upgrade from Version 1.1.1 to 1.1.6
 

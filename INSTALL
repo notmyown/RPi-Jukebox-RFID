@@ -14,7 +14,7 @@ the manuals inside the 'docs' folder.
 Download
 --------
 You can either download the latest version as a zip / tarball at:
-https://github.com/MiczFlor/RPi-Jukebox-RFID/releases
+https://github.com/notmyown/RPi-Jukebox-RFID/releases
 The advantages of using the download option: your installation
 will be running when it's running and changes in the code on 
 github will not change your installation.
@@ -47,5 +47,5 @@ doing, so roll up your sleeves, open them and read :)
 
 All the best and don't forget to share your results with the community
 in this thread:
-https://github.com/MiczFlor/RPi-Jukebox-RFID/issues/5
+https://github.com/notmyown/RPi-Jukebox-RFID/issues/5
 
