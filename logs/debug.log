@@ -1,0 +1,232 @@
+########### SCRIPT rfid_trigger_play.sh (2021-05-17.00:21:30) ##
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:21:30) ##
+  # VAR CARDID: 
+  # VAR COMMAND: 
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+# Attempting to play: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+# Type of play $VALUE: 
+$FOLDER set, not empty and dir exists: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:21:30) ##
+  # VAR CARDID: 
+  # VAR COMMAND: createDefaultFolderConf
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:21:30) ##
+VAR COMMAND: createDefaultFolderConf
+VAR FOLDER: erster ordner
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  !!!setting default vars for raw create!!!
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: filename
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner/folder.conf
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: filename
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+Var $LASTFOLDER: 
+Var $LASTPLAYLIST: 
+Checking 'recursive' list? VAR $VALUE: 
+/home/pi/RPi-Jukebox-RFID/scripts/playlist_recursive_by_folder.php folder="erster ordner" > "/tmp/erster ordner.m3u"
+Var $SECONDSWIPE: RESTART
+Var $PLAYLISTNAME: erster ordner
+We must play the playlist no matter what: $PLAYPLAYLIST == yes
+VAR FOLDER: erster ordner
+VAR PLAYLISTPATH: /tmp/erster ordner.m3u
+Command: /home/pi/RPi-Jukebox-RFID/scripts/playout_controls.sh -c=playlistaddplay -v="erster ordner" -d="erster ordner"
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:21:31) ##
+  # VAR CARDID: 
+  # VAR COMMAND: createDefaultFolderConf
+  # VAR FOLDER: 
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:21:31) ##
+VAR COMMAND: createDefaultFolderConf
+VAR FOLDER: 
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/
+  !!!setting default vars for raw create!!!
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: filename
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders//folder.conf
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: filename
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+  - back from inc.writeFolderConfig.sh
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders//folder.conf
+CURRENTFILENAME="filename"
+ELAPSED="0"
+PLAYSTATUS="Stopped"
+RESUME="OFF"
+SHUFFLE="OFF"
+LOOP="OFF"
+  Now doing what COMMAND wants: createDefaultFolderConf
+########### SCRIPT rfid_trigger_play.sh (2021-05-17.00:21:35) ##
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:21:35) ##
+  # VAR CARDID: 
+  # VAR COMMAND: 
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+# Attempting to play: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+# Type of play $VALUE: 
+$FOLDER set, not empty and dir exists: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+Var $LASTFOLDER: erster ordner
+Var $LASTPLAYLIST: erster ordner
+Checking 'recursive' list? VAR $VALUE: 
+/home/pi/RPi-Jukebox-RFID/scripts/playlist_recursive_by_folder.php folder="erster ordner" > "/tmp/erster ordner.m3u"
+Var $SECONDSWIPE: RESTART
+Var $PLAYLISTNAME: erster ordner
+Second Swipe DID happen: $LASTPLAYLIST == $PLAYLISTNAME
+We must play the playlist no matter what: $PLAYPLAYLIST == yes
+VAR FOLDER: erster ordner
+VAR PLAYLISTPATH: /tmp/erster ordner.m3u
+Command: /home/pi/RPi-Jukebox-RFID/scripts/playout_controls.sh -c=playlistaddplay -v="erster ordner" -d="erster ordner"
+########### SCRIPT rfid_trigger_play.sh (2021-05-17.00:21:54) ##
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:21:54) ##
+  # VAR CARDID: 
+  # VAR COMMAND: 
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+# Attempting to play: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+# Type of play $VALUE: 
+$FOLDER set, not empty and dir exists: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+Var $LASTFOLDER: erster ordner
+Var $LASTPLAYLIST: erster ordner
+Checking 'recursive' list? VAR $VALUE: 
+/home/pi/RPi-Jukebox-RFID/scripts/playlist_recursive_by_folder.php folder="erster ordner" > "/tmp/erster ordner.m3u"
+Var $SECONDSWIPE: RESTART
+Var $PLAYLISTNAME: erster ordner
+Second Swipe DID happen: $LASTPLAYLIST == $PLAYLISTNAME
+We must play the playlist no matter what: $PLAYPLAYLIST == yes
+VAR FOLDER: erster ordner
+VAR PLAYLISTPATH: /tmp/erster ordner.m3u
+Command: /home/pi/RPi-Jukebox-RFID/scripts/playout_controls.sh -c=playlistaddplay -v="erster ordner" -d="erster ordner"
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:22:18) ##
+  # VAR CARDID: 
+  # VAR COMMAND: enableresume
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:22:18) ##
+VAR COMMAND: enableresume
+VAR FOLDER: erster ordner
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: filename
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner/folder.conf
+CURRENTFILENAME="filename"
+ELAPSED="0"
+PLAYSTATUS="Stopped"
+RESUME="OFF"
+SHUFFLE="OFF"
+LOOP="OFF"
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: filename
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:22:23) ##
+  # VAR CARDID: 
+  # VAR COMMAND: resume
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:22:23) ##
+VAR COMMAND: resume
+VAR FOLDER: erster ordner
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: filename
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner/folder.conf
+CURRENTFILENAME="filename"
+ELAPSED="0"
+PLAYSTATUS="Stopped"
+RESUME="ON"
+SHUFFLE="OFF"
+LOOP="OFF"
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: filename
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:24:05) ##
+  # VAR CARDID: 
+  # VAR COMMAND: savepos
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:24:05) ##
+VAR COMMAND: savepos
+VAR FOLDER: erster ordner
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: erster ordner/shutdownsound.mp3
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner/folder.conf
+CURRENTFILENAME="filename"
+ELAPSED="0"
+PLAYSTATUS="Playing"
+RESUME="ON"
+SHUFFLE="OFF"
+LOOP="OFF"
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: erster ordner/shutdownsound.mp3
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:24:08) ##
+  # VAR CARDID: 
+  # VAR COMMAND: resume
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:24:08) ##
+VAR COMMAND: resume
+VAR FOLDER: erster ordner
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: erster ordner/shutdownsound.mp3
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner/folder.conf
+CURRENTFILENAME="erster ordner/shutdownsound.mp3"
+ELAPSED="0.615"
+PLAYSTATUS="Stopped"
+RESUME="ON"
+SHUFFLE="OFF"
+LOOP="OFF"
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: erster ordner/shutdownsound.mp3
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:31:14) ##
+  # VAR CARDID: 
+  # VAR COMMAND: disableresume
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+########### SCRIPT inc.writeFolderConfig.sh (2021-05-17.00:31:14) ##
+VAR COMMAND: disableresume
+VAR FOLDER: erster ordner
+VAR AUDIOFOLDERSPATH: /home/pi/RPi-Jukebox-RFID/shared/audiofolders
+CHECK FOLDER EXISTS: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+  KEEP NEW VARS IN MIND
+VAR NEWCURRENTFILENAME: erster ordner/shutdownsound.mp3
+  content of /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner/folder.conf
+CURRENTFILENAME="erster ordner/shutdownsound.mp3"
+ELAPSED="0.476"
+PLAYSTATUS="Playing"
+RESUME="ON"
+SHUFFLE="OFF"
+LOOP="OFF"
+  REPLACE VALUES FROM THE CONFIG FILE WITH NEW ONES
+VAR CURRENTFILENAME: erster ordner/shutdownsound.mp3
+  WRITE THE VALUES INTO THE NEWLY CREATED RAW CONFIG
+########### SCRIPT rfid_trigger_play.sh (2021-05-17.00:33:03) ##
+  ######### SCRIPT inc.readArgsFromCommandLine.sh (2021-05-17.00:33:03) ##
+  # VAR CARDID: 
+  # VAR COMMAND: 
+  # VAR FOLDER: erster ordner
+  # VAR VALUE: 
+# Attempting to play: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+# Type of play $VALUE: 
+$FOLDER set, not empty and dir exists: /home/pi/RPi-Jukebox-RFID/shared/audiofolders/erster ordner
+Var $LASTFOLDER: erster ordner
+Var $LASTPLAYLIST: erster ordner
+Checking 'recursive' list? VAR $VALUE: 
+/home/pi/RPi-Jukebox-RFID/scripts/playlist_recursive_by_folder.php folder="erster ordner" > "/tmp/erster ordner.m3u"
+Var $SECONDSWIPE: RESTART
+Var $PLAYLISTNAME: erster ordner
+Second Swipe DID happen: $LASTPLAYLIST == $PLAYLISTNAME
+We must play the playlist no matter what: $PLAYPLAYLIST == yes
+VAR FOLDER: erster ordner
+VAR PLAYLISTPATH: /tmp/erster ordner.m3u
+Command: /home/pi/RPi-Jukebox-RFID/scripts/playout_controls.sh -c=playlistaddplay -v="erster ordner" -d="erster ordner"
